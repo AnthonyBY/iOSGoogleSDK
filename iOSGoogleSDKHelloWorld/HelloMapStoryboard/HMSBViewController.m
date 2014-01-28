@@ -28,10 +28,14 @@
   [super viewDidLoad];
     
    
+    
     //Parse the JSON data from the http://Pampuni.com to list of NSMutableArray (property)
+    NSLog(@"Tab Bar Item - %@", self.tabBarItem.title);
+    
+    NSString *URL = [NSString stringWithFormat:@"http://pampuni.com/guideadmin/location/search?category=%@", self.tabBarItem.title];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://pampuni.com/guideadmin/location/search?category=Breakfast" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET:URL parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON %@", responseObject);
         
         //Parse data to the properties
@@ -82,7 +86,7 @@
         
         //Format snippet for the Marker (Street, House Humber, Working Hours)
         //If Remark is empty set value "emtpy" insted of ""
-        NSString *snippet = [NSString stringWithFormat:@"Street: %@, House Number: %@, opening hours Mon_fri: %@, Satarday: %@, Sunday: %@, Remark: %@ \n _CLICK ON INFO once again to get polyline from current location", [self.street objectAtIndex:i], [self.house_number objectAtIndex:i], [self.opening_hours_mon_fri objectAtIndex:i], [self.opening_hours_sat objectAtIndex:i], [self.opening_hours_sun objectAtIndex:i], ![[self.remarks objectAtIndex:i] isEqualToString:@""] ? [self.remarks objectAtIndex:i] : @"empty"];
+        NSString *snippet = [NSString stringWithFormat:@"Street: %@, House Number: %@, opening hours Mon_fri: %@, Satarday: %@, Sunday: %@, Remark: %@ \n", [self.street objectAtIndex:i], [self.house_number objectAtIndex:i], [self.opening_hours_mon_fri objectAtIndex:i], [self.opening_hours_sat objectAtIndex:i], [self.opening_hours_sun objectAtIndex:i], ![[self.remarks objectAtIndex:i] isEqualToString:@""] ? [self.remarks objectAtIndex:i] : @"empty"];
         marker.snippet = snippet;
         //snippet why it's not possible to add link http://stackoverflow.com/questions/17705549/how-to-put-a-link-in-a-google-map-markers-snippet
         marker.map = self.mapView;
