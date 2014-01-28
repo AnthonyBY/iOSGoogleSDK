@@ -41,6 +41,9 @@
 		F372DD521897211B0046090A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F372DD481897211B0046090A /* AFURLResponseSerialization.m */; };
 		F372DD531897211B0046090A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F372DD4A1897211B0046090A /* AFURLSessionManager.m */; };
 		F3A207B21897413E007EFE39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3A207B11897413E007EFE39 /* README.md */; };
+		F3A207B618976A9B007EFE39 /* beer-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207B518976A9B007EFE39 /* beer-25.png */; };
+		F3A207B818976B7D007EFE39 /* pizza-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207B718976B7D007EFE39 /* pizza-25.png */; };
+		F3A207BA18976BB7007EFE39 /* humburger-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207B918976BB7007EFE39 /* humburger-25.png */; };
 		F3D825BD188E02A80094A367 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D825BC188E02A80094A367 /* GoogleMaps.framework */; };
 		F3D825BF188E02EE0094A367 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3D825BE188E02EE0094A367 /* GoogleMaps.bundle */; };
 		F3D825C1188E057B0094A367 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D825C0188E057B0094A367 /* MapKit.framework */; };
@@ -97,6 +100,9 @@
 		F372DD491897211B0046090A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		F372DD4A1897211B0046090A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		F3A207B11897413E007EFE39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F3A207B518976A9B007EFE39 /* beer-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-25.png"; sourceTree = "<group>"; };
+		F3A207B718976B7D007EFE39 /* pizza-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pizza-25.png"; sourceTree = "<group>"; };
+		F3A207B918976BB7007EFE39 /* humburger-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "humburger-25.png"; sourceTree = "<group>"; };
 		F3D825BC188E02A80094A367 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		F3D825BE188E02EE0094A367 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		F3D825C0188E057B0094A367 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -194,6 +200,9 @@
 		63787279175DC8C200AA3C91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3A207B518976A9B007EFE39 /* beer-25.png */,
+				F3A207B918976BB7007EFE39 /* humburger-25.png */,
+				F3A207B718976B7D007EFE39 /* pizza-25.png */,
 				6378727A175DC8C200AA3C91 /* HelloMapStoryboard-Info.plist */,
 				6378727B175DC8C200AA3C91 /* InfoPlist.strings */,
 				6378727E175DC8C200AA3C91 /* main.m */,
@@ -284,12 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6378727D175DC8C200AA3C91 /* InfoPlist.strings in Resources */,
+				F3A207B818976B7D007EFE39 /* pizza-25.png in Resources */,
 				63787285175DC8C200AA3C91 /* Default.png in Resources */,
 				63787287175DC8C200AA3C91 /* Default@2x.png in Resources */,
 				F3D825C3188E0C860094A367 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F3A207BA18976BB7007EFE39 /* humburger-25.png in Resources */,
 				63787289175DC8C200AA3C91 /* Default-568h@2x.png in Resources */,
 				6378728F175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard in Resources */,
 				F3A207B21897413E007EFE39 /* README.md in Resources */,
+				F3A207B618976A9B007EFE39 /* beer-25.png in Resources */,
 				F3D825BF188E02EE0094A367 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -30,7 +30,7 @@
                             <constraint firstItem="eeW-L4-bXN" firstAttribute="top" secondItem="3" secondAttribute="top" id="Rbf-lR-0cI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Breakfast" id="1qA-yv-7p6"/>
+                    <tabBarItem key="tabBarItem" title="Breakfast" image="beer-25.png" id="1qA-yv-7p6"/>
                     <connections>
                         <outlet property="mapView" destination="eeW-L4-bXN" id="uFJ-LK-TsH"/>
                     </connections>
@@ -52,7 +52,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sightseeing" id="hXd-hX-k0j"/>
+                    <tabBarItem key="tabBarItem" title="Sightseeing" image="pizza-25.png" id="hXd-hX-k0j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iug-nT-wnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tapas" id="OLa-8c-GQv"/>
+                    <tabBarItem key="tabBarItem" title="Tapas" image="humburger-25.png" id="OLa-8c-GQv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cu-aO-lov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,6 +98,11 @@
             <point key="canvasLocation" x="1325" y="11"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beer-25.png" width="25" height="25"/>
+        <image name="humburger-25.png" width="25" height="25"/>
+        <image name="pizza-25.png" width="25" height="25"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
