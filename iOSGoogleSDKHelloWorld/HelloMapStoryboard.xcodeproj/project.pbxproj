@@ -40,6 +40,7 @@
 		F372DD511897211B0046090A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F372DD461897211B0046090A /* AFURLRequestSerialization.m */; };
 		F372DD521897211B0046090A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F372DD481897211B0046090A /* AFURLResponseSerialization.m */; };
 		F372DD531897211B0046090A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F372DD4A1897211B0046090A /* AFURLSessionManager.m */; };
+		F3A207B21897413E007EFE39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3A207B11897413E007EFE39 /* README.md */; };
 		F3D825BD188E02A80094A367 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D825BC188E02A80094A367 /* GoogleMaps.framework */; };
 		F3D825BF188E02EE0094A367 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3D825BE188E02EE0094A367 /* GoogleMaps.bundle */; };
 		F3D825C1188E057B0094A367 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D825C0188E057B0094A367 /* MapKit.framework */; };
@@ -95,6 +96,7 @@
 		F372DD481897211B0046090A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		F372DD491897211B0046090A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		F372DD4A1897211B0046090A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		F3A207B11897413E007EFE39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3D825BC188E02A80094A367 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		F3D825BE188E02EE0094A367 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		F3D825C0188E057B0094A367 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -133,6 +135,7 @@
 		63787266175DC8C200AA3C91 = {
 			isa = PBXGroup;
 			children = (
+				F3A207B11897413E007EFE39 /* README.md */,
 				63787278175DC8C200AA3C91 /* HelloMapStoryboard */,
 				63787271175DC8C200AA3C91 /* Frameworks */,
 				63787270175DC8C200AA3C91 /* Products */,
@@ -286,6 +289,7 @@
 				F3D825C3188E0C860094A367 /* MainStoryboard_iPhone.storyboard in Resources */,
 				63787289175DC8C200AA3C91 /* Default-568h@2x.png in Resources */,
 				6378728F175DC8C200AA3C91 /* MainStoryboard_iPad.storyboard in Resources */,
+				F3A207B21897413E007EFE39 /* README.md in Resources */,
 				F3D825BF188E02EE0094A367 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
